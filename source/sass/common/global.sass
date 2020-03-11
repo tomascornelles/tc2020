@@ -1,0 +1,65 @@
+@import 'config'
+
+body
+  transition: all 1s ease
+
+a
+  color: #f00
+
+.logo
+  fill: #00f
+  transition: all 1s ease
+
+// dark scheme
+body.dark
+  background: #00f
+  color: #fff
+
+body.dark .logo
+  fill: #fff
+
+body.dark .light
+  display: none
+
+//light scheme
+body.light
+  background: #fff
+  color: #000
+
+body.light .logo
+  fill: #00f
+
+body.light .dark
+  display: none
+
+
+@media (prefers-color-scheme: dark) 
+  body
+    background: #00f
+    color: #fff
+    
+    .light
+      display: none
+    
+    &.light .light
+      display: initial
+
+  .logo
+    fill: #fff
+
+.btn
+  &.round
+    display: inline-block
+    width: 3rem
+    height: 3rem
+    border-radius: 50%
+  &.light
+    background: #00f
+  &.dark
+    background: #fff
+
+.scheme-btn
+  position: absolute
+  right: 1rem
+  top: 1rem
+

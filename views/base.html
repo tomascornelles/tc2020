@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{doc.locale}}">
+<!doctype html>
+<html amp lang="{{doc.locale}}">
   <head>
     <meta charset="utf-8">
     <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -21,22 +21,28 @@
     {% endif %}
     {% if podspec.meta.favicon_path %}
     <link rel="shortcut icon" href="{{g.static(podspec.meta.favicon_path).url.path}}">
-    {% endif %}
+    {% endif %}<link rel="canonical" href="{{doc.url}}">
 
-    <link href="{{ g.static('/dist/css/composite/global.min.css').url.path }}" rel="stylesheet">
-    {% set compositeCssFiles = [doc.view|replace('.html', '')] %}
-    {% set compositeCssFiles = compositeCssFiles + (doc.composite_files if doc.composite_files else []) %}
-    {% for compositeCssFile in compositeCssFiles %}
-      {% if not compositeCssFile.startswith('/') %}
-        {% set compositeCssFile = '/' ~ compositeCssFile %}
-      {% endif %}
-      {% set viewCssFile = '/dist/css/composite' ~ compositeCssFile ~ '.min.css' %}
-      {% if doc.pod.file_exists(viewCssFile) %}
-        <link href="{{ g.static(viewCssFile).url.path }}" rel="stylesheet">
-      {% endif %}
-    {% endfor %}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+    <style amp-custom>
+    {% include "/dist/css/composite/base.min.css" %}
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
   </head>
-  <body>
+
+  <body [class]="scheme.class">
+    <amp-state id="scheme">
+      <script type="application/json">
+        {
+          "class": "light"
+        }
+      </script>
+    </amp-state>
+    <button class="scheme-btn btn round dark" on="tap:AMP.setState({scheme: {class: 'light'}})"></button>
+    <button class="scheme-btn btn round light" on="tap:AMP.setState({scheme: {class: 'dark'}})"></button>
     {% include "/partials/header/header.html" %}
     <div class="wrapper">
       {% block main %}

@@ -1,5 +1,587 @@
 {
-  "concrete": {},
+  "concrete": {
+    "null": {
+      "/": {
+        "options": {},
+        "value": {
+          "hashed": "2616f627ecf1eee3f4eb0ee40d72ef74a1d747659459b99cc4a7081d16868750",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "es",
+            "pod_path": "/content/pages/index.md"
+          },
+          "pod_path": "/content/pages/index.md"
+        }
+      },
+      "/about/": {
+        "options": {},
+        "value": {
+          "hashed": "89165157cf3f71f31c4428eddb80a4e62909a3ecec473297b3bd82b884e6a8a0",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "es",
+            "pod_path": "/content/pages/about.md"
+          },
+          "pod_path": "/content/pages/about.md"
+        }
+      },
+      "/projects/": {
+        "options": {},
+        "value": {
+          "hashed": "791820a372311621519a4f0ce52774d1577b481cf8a2323dbc60b80cadcb1ac3",
+          "kind": "doc",
+          "meta": {
+            "collection_path": "/content/pages",
+            "locale": "es",
+            "pod_path": "/content/pages/projects.md"
+          },
+          "pod_path": "/content/pages/projects.md"
+        }
+      },
+      "/sitemap.xml": {
+        "options": null,
+        "value": {
+          "hashed": null,
+          "kind": "sitemap",
+          "meta": {
+            "collections": null,
+            "filters": null,
+            "locales": null,
+            "path": "/sitemap.xml",
+            "template": null
+          },
+          "pod_path": null
+        }
+      },
+      "/static/images/android-icon-192x192.png": {
+        "options": null,
+        "value": {
+          "hashed": "011dabd65a3aaf74ee9f7930d6e7b7423a2e0ac0e43438698c5c5f5c920279f3",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/android-icon-192x192.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/android-icon-192x192.png"
+        }
+      },
+      "/static/images/apple-icon-114x114.png": {
+        "options": null,
+        "value": {
+          "hashed": "da535bd35a14026e547111bd54c86d469b7ea347c9d3c790e91da2c4c66dfd4b",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-114x114.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-114x114.png"
+        }
+      },
+      "/static/images/apple-icon-120x120.png": {
+        "options": null,
+        "value": {
+          "hashed": "e65f4e9b7c57364cb0e877295e986113fd16762bb4a91f6b38082ebd4af14454",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-120x120.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-120x120.png"
+        }
+      },
+      "/static/images/apple-icon-144x144.png": {
+        "options": null,
+        "value": {
+          "hashed": "a46f7ed43a7bb5db0addbfc01d78db7748f91ab9647dd38697e2056cc7611f57",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-144x144.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-144x144.png"
+        }
+      },
+      "/static/images/apple-icon-152x152.png": {
+        "options": null,
+        "value": {
+          "hashed": "3470474b4ac8de26dd1bc8c5366572b5d4c997138a0526f6d05423514ad6833f",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-152x152.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-152x152.png"
+        }
+      },
+      "/static/images/apple-icon-180x180.png": {
+        "options": null,
+        "value": {
+          "hashed": "e0f192a64c6661c90fae3f5faa91ea8282f0fed971821b9b1ff9c004a3703303",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-180x180.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-180x180.png"
+        }
+      },
+      "/static/images/apple-icon-57x57.png": {
+        "options": null,
+        "value": {
+          "hashed": "ed821eb351cbf52d75f0c9bdf6b073fea9e27e0fc925d5d2e9daaf9a56de330e",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-57x57.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-57x57.png"
+        }
+      },
+      "/static/images/apple-icon-60x60.png": {
+        "options": null,
+        "value": {
+          "hashed": "0c778dc9f938be49c923e16513722c53d1ca52a69d4e9a123803c01c5564a1ff",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-60x60.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-60x60.png"
+        }
+      },
+      "/static/images/apple-icon-72x72.png": {
+        "options": null,
+        "value": {
+          "hashed": "030d3ffb02746257162c267936c7ef508e780f91b6c45a57f20fe18eb9057631",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-72x72.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-72x72.png"
+        }
+      },
+      "/static/images/apple-icon-76x76.png": {
+        "options": null,
+        "value": {
+          "hashed": "a761924546de48a4b4e5f87a7d6929c46a594b73167e157d4eeb1d3ce5ecc999",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/apple-icon-76x76.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/apple-icon-76x76.png"
+        }
+      },
+      "/static/images/favicon-16x16.png": {
+        "options": null,
+        "value": {
+          "hashed": "c056ec1207ce35fb4818dfaaae817fe1c38399ef04b230072a23a1275301c0cf",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon-16x16.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/favicon-16x16.png"
+        }
+      },
+      "/static/images/favicon-256x256.png": {
+        "options": null,
+        "value": {
+          "hashed": "506aecd1cfcd26a9405c90cee33d5e72373c64decadc718bb63856190e0eaf89",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon-256x256.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/favicon-256x256.png"
+        }
+      },
+      "/static/images/favicon-32x32.png": {
+        "options": null,
+        "value": {
+          "hashed": "3095a1f98ac0f4ac6ce46964b13b416e3032adbe2b536b1773809f23dddcaef3",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon-32x32.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/favicon-32x32.png"
+        }
+      },
+      "/static/images/favicon-96x96.png": {
+        "options": null,
+        "value": {
+          "hashed": "8d810bb0730524b6499fe8104966ab5b6169e68dafda9ee35fb0e486073be5ae",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon-96x96.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/favicon-96x96.png"
+        }
+      },
+      "/static/images/favicon.ico": {
+        "options": null,
+        "value": {
+          "hashed": "74e43f1085396232b6983e08b33f3f6e0557ce3d50d7b031a57962e58bb639c2",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon.ico",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/favicon.ico"
+        }
+      },
+      "/static/images/favicon.png": {
+        "options": null,
+        "value": {
+          "hashed": "d737c4792eb153d927e67c7dbe30ec6278b5d59647e956f5e6986451ffe5d5eb",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/favicon.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/favicon.png"
+        }
+      },
+      "/static/images/logo_blue.svg": {
+        "options": null,
+        "value": {
+          "hashed": "ab3d5c989f4156b4bcd04153a0aac65a48a3c70ded8613430d158460ba5aa11c",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/logo_blue.svg",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/logo_blue.svg"
+        }
+      },
+      "/static/images/ms-icon-144x144.png": {
+        "options": null,
+        "value": {
+          "hashed": "a46f7ed43a7bb5db0addbfc01d78db7748f91ab9647dd38697e2056cc7611f57",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/ms-icon-144x144.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/ms-icon-144x144.png"
+        }
+      },
+      "/static/images/ms-icon-150x150.png": {
+        "options": null,
+        "value": {
+          "hashed": "17f17219022e628226b77e6de3d185995098650c4b4e2f2f0f91d323274374b3",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/ms-icon-150x150.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/ms-icon-150x150.png"
+        }
+      },
+      "/static/images/ms-icon-310x310.png": {
+        "options": null,
+        "value": {
+          "hashed": "1b0c57932051b35ad8d748efb4183e4d239ffa7ad8214f80f5681773056ed812",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/ms-icon-310x310.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/ms-icon-310x310.png"
+        }
+      },
+      "/static/images/ms-icon-70x70.png": {
+        "options": null,
+        "value": {
+          "hashed": "d5ac9fcf95918c527fae08d203c3798776645f394120c8d6308f9da0749db750",
+          "kind": "static",
+          "meta": {
+            "fingerprinted": false,
+            "locale": null,
+            "localization": null,
+            "localized": false,
+            "path_filter": {
+              "ignored": [
+                "^.*/\\.[^/]*$"
+              ],
+              "included": []
+            },
+            "pod_path": "/static/images/ms-icon-70x70.png",
+            "static_filter": {
+              "ignored": [],
+              "included": []
+            }
+          },
+          "pod_path": "/static/images/ms-icon-70x70.png"
+        }
+      }
+    }
+  },
   "dynamic": {
     "dev": {
       "/": {

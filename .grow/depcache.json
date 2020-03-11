@@ -1,32 +1,17 @@
 {
   "/content/pages/about.md": [
-    "/content/pages/about.md",
-    "/content/pages/index.md",
-    "/content/pages/projects.md",
-    "/dist/css/composite/global.min.css",
-    "/dist/js/composite/global.min.js",
-    "/partials/footer/footer.html",
-    "/partials/header/header.html",
-    "/static/images/favicon.png"
+    "/content/pages/about.md"
   ],
   "/content/pages/index.md": [
     "/content/pages/about.md",
     "/content/pages/index.md",
     "/content/pages/projects.md",
-    "/dist/css/composite/global.min.css",
-    "/dist/js/composite/global.min.js",
+    "/dist/css/composite/base.min.css",
     "/partials/footer/footer.html",
     "/partials/header/header.html",
     "/static/images/favicon.png"
   ],
   "/content/pages/projects.md": [
-    "/content/pages/about.md",
-    "/content/pages/index.md",
-    "/content/pages/projects.md",
-    "/dist/css/composite/global.min.css",
-    "/dist/js/composite/global.min.js",
-    "/partials/footer/footer.html",
-    "/partials/header/header.html",
-    "/static/images/favicon.png"
+    "/content/pages/projects.md"
   ]
 }

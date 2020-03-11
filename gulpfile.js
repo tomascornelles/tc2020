@@ -84,6 +84,7 @@ task('compile-sass', function(cb) {
 
 task('watch-sass', function() {
   watch(config.SASS_SOURCES, series('compile-sass'));
+  watch(config.SASS_SOURCE_DIR, series('compile-sass'));
 });
 
 task('watch-js', function() {
@@ -92,7 +93,7 @@ task('watch-js', function() {
   .pipe(dest(config.JS_OUT_DIR));
 });
 
-task('grow-build', parallel('compile-js', 'compile-sass'))
+task('grow-build', parallel('compile-sass'))
 
-exports.build = parallel('compile-js', 'compile-sass')
-exports.default = series('compile-sass', parallel('watch-js', 'watch-sass'))
+exports.build = parallel('compile-sass')
+exports.default = series('compile-sass', parallel('watch-sass'))
